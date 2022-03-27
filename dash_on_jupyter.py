@@ -15,6 +15,7 @@ app.layout = dbc.Container([
 ])
 
 
+
 @callback(Output('tbl_out', 'children'), Input('tbl', 'active_cell'))
 def update_graphs(active_cell):
     return str(active_cell) if active_cell else "Click the table"
