@@ -21,4 +21,4 @@ def update_graphs(active_cell):
     return str(active_cell) if active_cell else "Click the table"
 
 
-app.run_server(debug='Inline')
+app.run_server(mode='Inline')
